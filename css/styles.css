@@ -74,20 +74,7 @@ body {
         color: #2E2F42;
 }
 
-.mail {
-
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-
-        /* identical to box height, or 150% */
-        letter-spacing: 0.02em;
-
-        /* SLATE */
-        color: #434455
-}
-
-.tel {
+.contact-link {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -97,6 +84,11 @@ body {
 
         /* SLATE */
         color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+        color: var(--hf-buttons-color);
 }
 
 .title-basic {
