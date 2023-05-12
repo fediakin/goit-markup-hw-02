@@ -23,7 +23,7 @@ button {
 body {
         font-family: 'Roboto', sans-serif;
         color: var(--p-text);
-        background: #ffffff;
+        background-color: #ffffff;
 }
 
 .logo {
