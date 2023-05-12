@@ -246,6 +246,10 @@ body {
         color: #FFFFFF;
 }
 
+.modal-btn {
+        background-color: var(--buttons-color);
+}
+
 .modal-open-btn:hover,
 .modal-open-btn {
         background: var(--hf-buttons-color);
