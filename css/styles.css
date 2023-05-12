@@ -240,19 +240,17 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background: var(--buttons-color);
+        background-color: var(--buttons-color);
 
         /* WHITE */
         color: #FFFFFF;
 }
-
-.modal-btn {
-        background-color: var(--buttons-color);
-}
-
 .modal-open-btn:hover,
 .modal-open-btn {
         background: var(--hf-buttons-color);
+}
+.team-list {
+        background-color: #FFFFFF;
 }
 
 .title {
