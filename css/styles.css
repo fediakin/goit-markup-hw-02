@@ -245,7 +245,8 @@ body {
         /* WHITE */
         color: #FFFFFF;
 }
-.modal-open-btn:hover {
+.modal-open-btn:hover,
+.modal-open-btn:focus {
         background: var(--hf-buttons-color);
 }
 .team-list {
