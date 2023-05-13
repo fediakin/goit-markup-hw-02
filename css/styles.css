@@ -260,9 +260,6 @@ body {
 .modal-open-btn:focus {
         background: var(--hf-buttons-color);
 }
-.team-list {
-        background-color: #FFFFFF;
-}
 
 .title {
         background-color: var(--tags-color);
