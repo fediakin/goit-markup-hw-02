@@ -91,6 +91,13 @@ body {
         color: var(--hf-buttons-color);
 }
 
+.buttons-section:hover,
+.buttons-section:focus {
+        color: #FFFFFF;
+        background-color: #404BBF;
+}
+
+
 .title-basic {
         font-weight: 700;
         font-size: 56px;
