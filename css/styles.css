@@ -131,7 +131,7 @@ body {
         letter-spacing: 0.02em;
 
         /* SLATE */
-        color: var(--p-text);
+
 }
 
 .title-gallery {
@@ -184,7 +184,7 @@ body {
         letter-spacing: 0.02em;
 
         /* SLATE */
-        color: var(--p-text);
+
 }
 
 
@@ -216,7 +216,7 @@ body {
         letter-spacing: 0.02em;
 
         /* NAVY BLUE */
-        color: var()
+        color: var(--tags-color);
 }
 
 .portfolio-p {
@@ -243,7 +243,7 @@ body {
         background-color: var(--buttons-color);
 
         /* WHITE */
-        color: var(--tags-color);
+        color: var(--our-white-color);
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
@@ -299,7 +299,8 @@ body {
 
 }
 
-.main-footer {
+
+.main-footer-text {
         line-height: 1.5;
         color: var(--our-team-background);
         letter-spacing: 0.02em;
