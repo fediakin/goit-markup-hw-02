@@ -4,6 +4,7 @@
         --buttons-color: #4d5ae5;
         --hf-buttons-color: #404bbf;
         --our-team-background: #f4f4fd;
+        --our-white-color: #ffffff;
 
 }
 
@@ -24,7 +25,7 @@ button {
 body {
         font-family: 'Roboto', sans-serif;
         color: var(--p-text);
-        background: #ffffff;
+        background-color: var(--our-white-color);
 }
 
 .logo {
@@ -39,7 +40,7 @@ body {
         text-transform: uppercase;
 
         /* IRIS */
-        color: #4D5AE5;
+        color: var(--buttons-color);
 }
 
 .web-logo {
@@ -54,7 +55,7 @@ body {
         text-transform: uppercase;
 
         /* IRIS */
-        color: #4D5AE5;
+        color: var(--buttons-color);
 
 
 }
@@ -68,11 +69,10 @@ body {
         letter-spacing: 0.02em;
 
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--tags-color);
 }
 
 .contact-link {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
 
@@ -80,7 +80,7 @@ body {
         letter-spacing: 0.02em;
 
         /* SLATE */
-        color: #434455;
+        color: var(--p-text);
 }
 
 .contact-link:hover,
@@ -90,13 +90,13 @@ body {
 
 .buttons-section:hover,
 .buttons-section:focus {
-        color: #FFFFFF;
-        background-color: #404BBF;
+        color: var(--our-white-color);
+        background-color: var(--hf-buttons-color);
 }
 
 .team-item {
-        background-color: #FFFFFF;
-}
+        background-color: var(--our-white-color);
+}        
 
 
 .title-basic {
@@ -108,7 +108,7 @@ body {
         text-align: center;
         letter-spacing: 0.02em;
 
-        color: #FFFFFF;
+        color: var(--our-white-color);
 }
 
 .hero-header {
@@ -120,11 +120,10 @@ body {
         letter-spacing: 0.02em;
 
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--tags-color);
 }
 
 .hero-text {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
 
@@ -132,7 +131,7 @@ body {
         letter-spacing: 0.02em;
 
         /* SLATE */
-        color: #434455;
+        color: var(--p-text);
 }
 
 .title-gallery {
@@ -146,7 +145,7 @@ body {
         text-transform: capitalize;
 
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--tags-color);
 }
 
 .title-team {
@@ -154,14 +153,13 @@ body {
         font-size: 36px;
         line-height: 1.11;
         text-transform: capitalize;
-        background-color: #FFFFFF;
 
         /* identical to box height, or 111% */
         text-align: center;
         letter-spacing: 0.02em;
 
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--tags-color);
 }
 
 .team-worker {
@@ -174,11 +172,10 @@ body {
         letter-spacing: 0.02em;
 
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--tags-color);
 }
 
 .team-profession {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
 
@@ -187,15 +184,11 @@ body {
         letter-spacing: 0.02em;
 
         /* SLATE */
-        color: #434455;
+        color: var(--p-text);
 }
 
-.buttons-section {
-        background: #f4f4fd;
-}
 
 .buttons-section {
-        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -205,7 +198,8 @@ body {
         letter-spacing: 0.04em;
 
         /* IRIS */
-        color: #4D5AE5;
+        color: var(--buttons-color);
+        background-color: var(--our-team-background);
 }
 
 .buttons-main:hover,
@@ -222,7 +216,7 @@ body {
         letter-spacing: 0.02em;
 
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var()
 }
 
 .portfolio-p {
@@ -234,7 +228,7 @@ body {
         letter-spacing: 0.02em;
 
         /* SLATE */
-        color: #434455;
+        color: var(--p-text);
 }
 
 .hero-section {
@@ -246,10 +240,10 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background-color: #4D5AE5;
+        background-color: var(--buttons-color);
 
         /* WHITE */
-        color: #FFFFFF;
+        color: var(--tags-color);
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
@@ -280,7 +274,7 @@ body {
         text-transform: uppercase;
 
         /* IRIS */
-        color: #4D5AE5;
+        color: var(--buttons-color);
 }
 
 .web-logo {
@@ -307,6 +301,6 @@ body {
 
 .main-footer {
         line-height: 1.5;
-        color: #F4F4FD;
+        color: var(--our-team-background);
         letter-spacing: 0.02em;
 }
