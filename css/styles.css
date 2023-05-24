@@ -20,6 +20,7 @@ button {
         font-family: inherit;
 }
 
+
 body {
         font-family: 'Roboto', sans-serif;
         color: var(--p-text);
@@ -310,4 +311,10 @@ body {
 .portfolio {
         font-weight: 500;
 
+}
+
+.main-footer {
+        line-height: 1.5;
+        color: #F4F4FD;
+        letter-spacing: 0.02em;
 }
