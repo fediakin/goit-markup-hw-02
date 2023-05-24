@@ -35,8 +35,6 @@ body {
         line-height: 1.17;
 
         /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 
@@ -52,8 +50,6 @@ body {
         line-height: 1.17;
 
         /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 
@@ -205,8 +201,6 @@ body {
         line-height: 1.5;
 
         /* identical to box height, or 150% */
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
 
@@ -282,8 +276,6 @@ body {
         line-height: 1.17;
 
         /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 
